@@ -1,4 +1,4 @@
-b = float(input("Dame la base:"))
+b=float(input("Dame la base:"))
 a = float(input("Dame la altura:"))
 p = float(input("Dame la profundidad:"))
     
