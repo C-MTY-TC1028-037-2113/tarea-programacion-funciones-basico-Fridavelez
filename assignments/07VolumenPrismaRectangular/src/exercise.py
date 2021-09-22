@@ -1,10 +1,15 @@
 
-b = float(input('Dame la base: '))
-a = float(input("Dame la altura:"))
-p = float(input("Dame la profundidad:"))  
+def main():
+    #escribe tu código abajo de esta línea
+    b = float(input("Dame la base: "))
+    a = float(input("Dame la altura: "))
+    p = float(input("Dame la profundidad: "))
+    
+    area= b*a
 
-volumen_prisma=b*p*a
+    volumen=area*p
 
-r = volumen_prisma
-
-print("El volumen del prisma es:", r)
+    print("El volumen del prisma es:",volumen)
+if __name__ == '__main__':
+    main()
+    
